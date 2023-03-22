@@ -19,7 +19,7 @@ header{
     align-items: flex-start;
     gap: 2rem;
     height: 100vh;
-    background-image: url('../images/danny-howe-GAhBHu0GJZg-unsplash.jpg');
+    background-image: url('../css/danny-howe-GAhBHu0GJZg-unsplash.jpg');
     background-size: cover;
     color: var(--color-default);
     /*shorthand*/    padding: 5rem 8rem;
