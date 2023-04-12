@@ -40,17 +40,17 @@
         <li class="card">
             <div class="card-image"><img src="https://images.unsplash.com/photo-1605125207433-a67e404afc0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8a2F3YWlpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
             <div class="card-info">
-                <h3></h3>
-                <h4></h4>
-                <p></p>
+                <h3>Gemini</h3>
+                <h4>PHP, Laravel</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </li>
         <li class="card">
             <div class="card-image"><img src="https://images.unsplash.com/photo-1605188613817-c98d3a93a767?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fGthd2FpaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt=""></div>
             <div class="card-info">
-                <h3></h3>
-                <h4></h4>
-                <p></p>
+                <h3>Gemini</h3>
+                <h4>PHP, Laravel</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </li>
     </ul>
@@ -59,29 +59,30 @@
 <section id="secao-orcamento">
     <form action="">
         <h3>Orçamento</h3>
+
         <label for="qtde">Qtde de Páginas</label>
         <input type="number" id="qtde" min="1" value="1">
 
         <label for="js">Precisa de JS?</label>
         <input type="checkbox" id="js">
 
-        <label for="layout">Precisa de layout?</label>
+        <label for="layout">Precisa de Layout?</label>
         <div>
             <input type="radio" id="layout_sim" name="layout">
             <label for="layout_sim">Sim, preciso de layout</label>
 
             <input type="radio" id="layout_nao" name="layout">
-            <label for="layout_nao">Não, ja tenho</label>
+            <label for="layout_nao">Não, já tenho</label>
         </div>
 
-        <label for="prazo">Prazo</label>
-        <input type="range" id="prazo">
+        <label for="prazo" id="label_prazo">Prazo</label>
+        <input type="range" id="prazo" min="1" max="10">
 
-        <output>R$0,00</output>
+        <output id="output">R$ 100,00</output>
     </form>
 </section>
-<!--USADO PARA CRIAR AUTOMATICAMENTE O CODIGO ACIMA: section#secao-projetos>ul>li*3>(div.card-image>img)+div.card-info>h3+h4+p -->
 
+<script src="./css/js/script.js"></script>
 </body>
 
 </html>
